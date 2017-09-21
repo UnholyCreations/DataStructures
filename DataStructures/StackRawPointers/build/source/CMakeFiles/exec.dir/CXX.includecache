@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gosho/DataStructures/StackRawPointers/source/main.cpp
+stack.hpp
+/home/gosho/DataStructures/StackRawPointers/source/stack.hpp
+iostream
+-
+
+/home/gosho/DataStructures/StackRawPointers/source/stack.cpp
+stack.hpp
+/home/gosho/DataStructures/StackRawPointers/source/stack.hpp
+
+/home/gosho/DataStructures/StackRawPointers/source/stack.hpp
+iostream
+-
+

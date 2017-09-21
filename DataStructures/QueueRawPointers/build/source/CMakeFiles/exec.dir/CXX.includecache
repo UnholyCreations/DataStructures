@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gosho/DataStructures/QueueRawPointers/source/main.cpp
+queue.hpp
+/home/gosho/DataStructures/QueueRawPointers/source/queue.hpp
+iostream
+-
+
+/home/gosho/DataStructures/QueueRawPointers/source/queue.cpp
+queue.hpp
+/home/gosho/DataStructures/QueueRawPointers/source/queue.hpp
+
+/home/gosho/DataStructures/QueueRawPointers/source/queue.hpp
+iostream
+-
+
