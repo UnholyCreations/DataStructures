@@ -1,7 +1,7 @@
 #include "queue.hpp"
-queue::Node::Node(): m_data(0),m_next(NULL),m_previous(NULL) {std::cout<<"node created\n";};
-queue::Node::~Node() {std::cout<<"node deleted\n";};
-queue::queue():m_size(0),m_head{NULL},m_tail{NULL} {m_size=0; std::cout<<"queue created.\n";}
+queue::Node::Node(): m_data(0),m_next(NULL),m_previous(NULL) {};
+queue::Node::~Node() {std::cout<<m_data<<" poped\n";};
+queue::queue():m_size(0),m_head{NULL},m_tail{NULL} {m_size=0; std::cout<<"queue created(default).\n";}
 queue::~queue() {while(m_size>0) {pop();} }
 
 int queue::size() const

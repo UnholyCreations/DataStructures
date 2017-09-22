@@ -1,14 +1,35 @@
 #include "stack.hpp"
-stack::Node::Node(): m_data(0),m_next(NULL),m_previous(NULL) {std::cout<<"node created\n";};
-stack::Node::~Node() {std::cout<<"node deleted\n";};
-stack::stack():m_size(0),m_head{NULL},m_tail{NULL} {m_size=0; std::cout<<"stack created.\n";}
-stack::~stack() {while(m_size>0) {pop();} }
+stack::Node::Node(): m_data(0),m_next(NULL),m_previous(NULL) {};
+stack::Node::~Node() {std::cout<<m_data<<" poped\n";};
+stack::stack():m_size(0),m_head{NULL},m_tail{NULL} {std::cout<<"stack created(default).\n";}
+stack::stack(const stack &input):m_size(0),m_head{NULL},m_tail{NULL} 
+ {
+ std::cout<<"stack created(copy).\n";
+ stack::Node* p=input.m_head;
+ int data;
+ while (p!=NULL)
+	 {
+	 	data=p->m_data;
+	 	stack::push(data);
+		p=p->m_previous;
+	 }
+
+ }
+
+
+
+
+
+stack::~stack() {std::cout<<"destructor call:\n"; while(m_size>0) {pop();} }
 
 
 int stack::size() const
 {
 return m_size;
 }
+
+
+
 
 void stack::push(int f_data)
 {
@@ -35,23 +56,23 @@ void stack::pop()
 	if (m_size>1)
 	{
 		m_size--;
-		stack::Node* p=m_head;
+		stack::Node* p=m_tail;
 		if (m_size>0)
 		{
-		m_head=m_head->m_previous;
+		m_tail=m_tail->m_next;
 		}
 		else
 		{
-		m_head=m_tail=NULL;
-		m_head->m_previous=NULL;
+		m_tail->m_previous=NULL;
+		m_tail->m_next=NULL;
 		}
-		m_head->m_next=NULL;
+		m_tail->m_previous=NULL;
 		delete p;
 	}
 	else if (m_size==1)
 	{
 		m_size-=1;
-		stack::Node* p=m_head;
+		stack::Node* p=m_tail;
 		m_head=NULL;
 		m_tail=NULL;
 		delete p;

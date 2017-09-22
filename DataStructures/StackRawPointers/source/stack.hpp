@@ -3,7 +3,8 @@
 #include <iostream>
     class stack{
     public:
-    stack();
+    stack(); //default
+    stack(const stack &input); //copy constructor
     ~stack();
     private:
         struct Node{
@@ -21,5 +22,9 @@
     void pop();
     int size() const;
     void print();
+    //int get_data();
+
+
+
     };
 #endif
