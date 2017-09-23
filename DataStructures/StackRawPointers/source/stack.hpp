@@ -5,6 +5,7 @@
     public:
     stack(); //default
     stack(const stack &input); //copy constructor
+    stack(stack &&input); //move constructor
     ~stack();
     private:
         struct Node{
@@ -20,6 +21,7 @@
     public:
     void push(int f_data);
     void pop();
+    void pop_reverse();
     int size() const;
     void print();
     //int get_data();

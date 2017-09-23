@@ -1,4 +1,5 @@
 #include "stack.hpp"
+#include <utility>
 stack::Node::Node(): m_data(0),m_next(NULL),m_previous(NULL) {};
 stack::Node::~Node() {std::cout<<m_data<<" poped\n";};
 stack::stack():m_size(0),m_head{NULL},m_tail{NULL} {std::cout<<"stack created(default).\n";}
@@ -15,7 +16,20 @@ stack::stack(const stack &input):m_size(0),m_head{NULL},m_tail{NULL}
 	 }
 
  }
+stack::stack(stack &&input):m_size(0),m_head{NULL},m_tail{NULL} 
+ {
+ std::cout<<"stack created(move).\n";
+ stack::Node* p=input.m_head;
+ int data;
+ while (p!=NULL)
+	 {
+	 	data=p->m_data;
+	 	stack::push(data);
+		p=p->m_previous;
+		input.pop_reverse();
+	 }
 
+ }
 
 
 
@@ -49,6 +63,34 @@ void stack::push(int f_data)
 		m_tail=newnode;
 		m_size+=1;
 		}
+}
+
+void stack::pop_reverse()
+{
+	if (m_size>1)
+	{
+		m_size--;
+		stack::Node* p=m_head;
+		if (m_size>0)
+		{
+		m_head=m_head->m_previous;
+		}
+		else
+		{
+		m_head->m_next=NULL;
+		m_head->m_previous=NULL;
+		}
+		m_head->m_next=NULL;
+		delete p;
+	}
+	else if (m_size==1)
+	{
+		m_size-=1;
+		stack::Node* p=m_head;
+		m_tail=NULL;
+		m_head=NULL;
+		delete p;
+	}
 }
 
 void stack::pop()

@@ -1,4 +1,4 @@
-The system is: Linux - 4.12.12-19.current - x86_64
+The system is: Linux - 4.12.14-21.current - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: -g2;-O3;-pipe;-fPIC;-Wformat;-Wformat-security;-fno-omit-frame-pointer;-fexceptions;-D_FORTIFY_SOURCE=2;-fstack-protector;--param;ssp-buffer-size=32;-fasynchronous-unwind-tables;-ftree-vectorize;-feliminate-unused-debug-types;-Wall;-Wno-error;-Wp,-D_REENTRANT
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/3.8.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/3.8.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_9423a/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_9423a.dir/build.make CMakeFiles/cmTC_9423a.dir/build
-gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9423a.dir/testCCompiler.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_9423a.dir/testCCompiler.c.o   -c /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_9423a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9423a.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_9423a.dir/testCCompiler.c.o  -o cmTC_9423a 
-gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_1a614/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1a614.dir/build.make CMakeFiles/cmTC_1a614.dir/build
+gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a614.dir/testCCompiler.c.o
+/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_1a614.dir/testCCompiler.c.o   -c /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1a614
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a614.dir/link.txt --verbose=1
+/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_1a614.dir/testCCompiler.c.o  -o cmTC_1a614 
+gmake[1]: Leaving directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_a514c/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_a514c.dir/build.make CMakeFiles/cmTC_a514c.dir/build
-gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a514c.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_a514c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_a514c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a514c.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v -rdynamic CMakeFiles/cmTC_a514c.dir/CMakeCCompilerABI.c.o  -o cmTC_a514c 
+Run Build Command:"/usr/bin/gmake" "cmTC_c2ad9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c2ad9.dir/build.make CMakeFiles/cmTC_c2ad9.dir/build
+gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2ad9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_c2ad9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_c2ad9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2ad9.dir/link.txt --verbose=1
+/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v -rdynamic CMakeFiles/cmTC_c2ad9.dir/CMakeCCompilerABI.c.o  -o cmTC_c2ad9 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 6.4.0 (Solus) 
 COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/
 LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_a514c' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoSNeuG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_a514c /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_a514c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_a514c' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_c2ad9' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTnRDi6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_c2ad9 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_c2ad9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_c2ad9' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_a514c/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_a514c.dir/build.make CMakeFiles/cmTC_a514c.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_a514c.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_a514c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_a514c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a514c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v -rdynamic CMakeFiles/cmTC_a514c.dir/CMakeCCompilerABI.c.o  -o cmTC_a514c ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_c2ad9/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_c2ad9.dir/build.make CMakeFiles/cmTC_c2ad9.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_c2ad9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_c2ad9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_c2ad9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2ad9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v -rdynamic CMakeFiles/cmTC_c2ad9.dir/CMakeCCompilerABI.c.o  -o cmTC_c2ad9 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.4.0 (Solus) ]
   ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_a514c' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoSNeuG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_a514c /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_a514c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-Wformat=1' '-Wformat-security' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_c2ad9' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTnRDi6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_c2ad9 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_c2ad9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o]
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccoSNeuG.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTnRDi6.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -106,7 +106,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/usr/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a514c] ==> ignore
+    arg [cmTC_c2ad9] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o] ==> ignore
@@ -117,7 +117,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..]
     arg [-zrelro] ==> ignore
     arg [-znow] ==> ignore
-    arg [CMakeFiles/cmTC_a514c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_c2ad9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -146,17 +146,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_0a18c/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_0a18c.dir/build.make CMakeFiles/cmTC_0a18c.dir/build
-gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0a18c.dir/feature_tests.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c11 -o CMakeFiles/cmTC_0a18c.dir/feature_tests.c.o   -c /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0a18c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a18c.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_0a18c.dir/feature_tests.c.o  -o cmTC_0a18c 
-gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_19ece/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_19ece.dir/build.make CMakeFiles/cmTC_19ece.dir/build
+gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19ece.dir/feature_tests.c.o
+/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c11 -o CMakeFiles/cmTC_19ece.dir/feature_tests.c.o   -c /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_19ece
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19ece.dir/link.txt --verbose=1
+/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_19ece.dir/feature_tests.c.o  -o cmTC_19ece 
+gmake[1]: Leaving directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -166,17 +166,17 @@ gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/C
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_e9360/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_e9360.dir/build.make CMakeFiles/cmTC_e9360.dir/build
-gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e9360.dir/feature_tests.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c99 -o CMakeFiles/cmTC_e9360.dir/feature_tests.c.o   -c /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e9360
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9360.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_e9360.dir/feature_tests.c.o  -o cmTC_e9360 
-gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_e7041/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e7041.dir/build.make CMakeFiles/cmTC_e7041.dir/build
+gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7041.dir/feature_tests.c.o
+/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c99 -o CMakeFiles/cmTC_e7041.dir/feature_tests.c.o   -c /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e7041
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7041.dir/link.txt --verbose=1
+/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_e7041.dir/feature_tests.c.o  -o cmTC_e7041 
+gmake[1]: Leaving directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -186,17 +186,17 @@ gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/C
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_71f13/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_71f13.dir/build.make CMakeFiles/cmTC_71f13.dir/build
-gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_71f13.dir/feature_tests.c.o
-/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c90 -o CMakeFiles/cmTC_71f13.dir/feature_tests.c.o   -c /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_71f13
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71f13.dir/link.txt --verbose=1
-/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_71f13.dir/feature_tests.c.o  -o cmTC_71f13 
-gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_96485/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_96485.dir/build.make CMakeFiles/cmTC_96485.dir/build
+gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96485.dir/feature_tests.c.o
+/usr/bin/cc   -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c90 -o CMakeFiles/cmTC_96485.dir/feature_tests.c.o   -c /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_96485
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96485.dir/link.txt --verbose=1
+/usr/bin/cc -g2 -O3 -pipe -fPIC -Wformat -Wformat-security -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_96485.dir/feature_tests.c.o  -o cmTC_96485 
+gmake[1]: Leaving directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -204,30 +204,30 @@ gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/C
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_e8596/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_e8596.dir/build.make CMakeFiles/cmTC_e8596.dir/build
-gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e8596.dir/testCXXCompiler.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_e8596.dir/testCXXCompiler.cxx.o -c /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_e8596
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8596.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_e8596.dir/testCXXCompiler.cxx.o  -o cmTC_e8596 
-gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_17d66/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_17d66.dir/build.make CMakeFiles/cmTC_17d66.dir/build
+gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_17d66.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_17d66.dir/testCXXCompiler.cxx.o -c /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_17d66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17d66.dir/link.txt --verbose=1
+/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_17d66.dir/testCXXCompiler.cxx.o  -o cmTC_17d66 
+gmake[1]: Leaving directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_ff724/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_ff724.dir/build.make CMakeFiles/cmTC_ff724.dir/build
-gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ff724.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_ff724.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_ff724
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff724.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v -rdynamic CMakeFiles/cmTC_ff724.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ff724 
+Run Build Command:"/usr/bin/gmake" "cmTC_2fbf3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2fbf3.dir/build.make CMakeFiles/cmTC_2fbf3.dir/build
+gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2fbf3.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_2fbf3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2fbf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fbf3.dir/link.txt --verbose=1
+/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v -rdynamic CMakeFiles/cmTC_2fbf3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2fbf3 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper
@@ -237,24 +237,24 @@ Thread model: posix
 gcc version 6.4.0 (Solus) 
 COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/
 LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_ff724' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYOXea0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_ff724 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_ff724.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_ff724' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_2fbf3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsWZn5s.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_2fbf3 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_2fbf3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_2fbf3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_ff724/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_ff724.dir/build.make CMakeFiles/cmTC_ff724.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_ff724.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_ff724.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_ff724]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff724.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v -rdynamic CMakeFiles/cmTC_ff724.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ff724 ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_2fbf3/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_2fbf3.dir/build.make CMakeFiles/cmTC_2fbf3.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_2fbf3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -o CMakeFiles/cmTC_2fbf3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_2fbf3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fbf3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now -v -rdynamic CMakeFiles/cmTC_2fbf3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2fbf3 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper]
@@ -264,13 +264,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.4.0 (Solus) ]
   ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_ff724' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYOXea0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_ff724 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_ff724.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-g2' '-O3' '-pipe' '-fPIC' '-fno-omit-frame-pointer' '-fexceptions' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-fasynchronous-unwind-tables' '-ftree-vectorize' '-feliminate-unused-debug-types' '-Wall' '-Wno-error' '-v' '-rdynamic' '-o' 'cmTC_2fbf3' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2 -plugin /usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsWZn5s.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /usr/lib64/ld-linux-x86-64.so.2 -o cmTC_2fbf3 /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../.. -z relro -z now CMakeFiles/cmTC_2fbf3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtend.o /usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crtn.o]
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib64/gcc/x86_64-solus-linux/6.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccYOXea0.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccsWZn5s.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -284,7 +284,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/usr/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ff724] ==> ignore
+    arg [cmTC_2fbf3] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/crtbegin.o] ==> ignore
@@ -295,7 +295,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-solus-linux/6.4.0/../../..]
     arg [-zrelro] ==> ignore
     arg [-znow] ==> ignore
-    arg [CMakeFiles/cmTC_ff724.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_2fbf3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -322,17 +322,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_b78d4/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_b78d4.dir/build.make CMakeFiles/cmTC_b78d4.dir/build
-gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b78d4.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++1z -o CMakeFiles/cmTC_b78d4.dir/feature_tests.cxx.o -c /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b78d4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b78d4.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_b78d4.dir/feature_tests.cxx.o  -o cmTC_b78d4 
-gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_da58d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_da58d.dir/build.make CMakeFiles/cmTC_da58d.dir/build
+gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da58d.dir/feature_tests.cxx.o
+/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++1z -o CMakeFiles/cmTC_da58d.dir/feature_tests.cxx.o -c /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_da58d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da58d.dir/link.txt --verbose=1
+/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_da58d.dir/feature_tests.cxx.o  -o cmTC_da58d 
+gmake[1]: Leaving directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -395,17 +395,17 @@ gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/C
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_d4a06/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_d4a06.dir/build.make CMakeFiles/cmTC_d4a06.dir/build
-gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d4a06.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++14 -o CMakeFiles/cmTC_d4a06.dir/feature_tests.cxx.o -c /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d4a06
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4a06.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_d4a06.dir/feature_tests.cxx.o  -o cmTC_d4a06 
-gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_128df/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_128df.dir/build.make CMakeFiles/cmTC_128df.dir/build
+gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_128df.dir/feature_tests.cxx.o
+/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++14 -o CMakeFiles/cmTC_128df.dir/feature_tests.cxx.o -c /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_128df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_128df.dir/link.txt --verbose=1
+/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_128df.dir/feature_tests.cxx.o  -o cmTC_128df 
+gmake[1]: Leaving directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -468,17 +468,17 @@ gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/C
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_aad2a/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_aad2a.dir/build.make CMakeFiles/cmTC_aad2a.dir/build
-gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_aad2a.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++11 -o CMakeFiles/cmTC_aad2a.dir/feature_tests.cxx.o -c /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_aad2a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aad2a.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_aad2a.dir/feature_tests.cxx.o  -o cmTC_aad2a 
-gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_e73d3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e73d3.dir/build.make CMakeFiles/cmTC_e73d3.dir/build
+gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e73d3.dir/feature_tests.cxx.o
+/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++11 -o CMakeFiles/cmTC_e73d3.dir/feature_tests.cxx.o -c /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e73d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e73d3.dir/link.txt --verbose=1
+/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_e73d3.dir/feature_tests.cxx.o  -o cmTC_e73d3 
+gmake[1]: Leaving directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -541,17 +541,17 @@ gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/C
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_16ee2/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_16ee2.dir/build.make CMakeFiles/cmTC_16ee2.dir/build
-gmake[1]: Entering directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_16ee2.dir/feature_tests.cxx.o
-/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++98 -o CMakeFiles/cmTC_16ee2.dir/feature_tests.cxx.o -c /home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_16ee2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16ee2.dir/link.txt --verbose=1
-/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_16ee2.dir/feature_tests.cxx.o  -o cmTC_16ee2 
-gmake[1]: Leaving directory '/home/gosho/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_c9898/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c9898.dir/build.make CMakeFiles/cmTC_c9898.dir/build
+gmake[1]: Entering directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c9898.dir/feature_tests.cxx.o
+/usr/bin/c++    -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT    -std=c++98 -o CMakeFiles/cmTC_c9898.dir/feature_tests.cxx.o -c /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c9898
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9898.dir/link.txt --verbose=1
+/usr/bin/c++  -g2 -O3 -pipe -fPIC -fno-omit-frame-pointer -fexceptions -D_FORTIFY_SOURCE=2 -fstack-protector --param ssp-buffer-size=32 -fasynchronous-unwind-tables -ftree-vectorize -feliminate-unused-debug-types -Wall -Wno-error -Wp,-D_REENTRANT   -Wl,-z,relro -Wl,-z,now  -rdynamic CMakeFiles/cmTC_c9898.dir/feature_tests.cxx.o  -o cmTC_c9898 
+gmake[1]: Leaving directory '/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

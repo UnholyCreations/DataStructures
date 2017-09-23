@@ -1,4 +1,4 @@
-# Install script for directory: /home/gosho/DataStructures/StackRawPointers/source
+# Install script for directory: /home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

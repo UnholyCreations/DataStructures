@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gosho/DataStructures/StackRawPointers/source/main.cpp" "/home/gosho/DataStructures/StackRawPointers/build/source/CMakeFiles/exec.dir/main.cpp.o"
-  "/home/gosho/DataStructures/StackRawPointers/source/stack.cpp" "/home/gosho/DataStructures/StackRawPointers/build/source/CMakeFiles/exec.dir/stack.cpp.o"
+  "/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/source/main.cpp" "/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/source/CMakeFiles/exec.dir/main.cpp.o"
+  "/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/source/stack.cpp" "/home/gosho/GIT/DataStructures/DataStructures/StackRawPointers/build/source/CMakeFiles/exec.dir/stack.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
